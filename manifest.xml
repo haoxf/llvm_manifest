@@ -1,0 +1,10 @@
+<manifest>
+    <remote  name="llvm" fetch="https://github.com/llvm-mirror/llvm" />
+    <remote  name="clang" fetch="https://github.com/llvm-mirror/clang" />
+    <remote  name="compiler-rt" fetch="https://github.com/llvm-mirror/compiler-rt" />
+
+    <default revision="master" remote="llvm" sync-j="4" />
+
+    <project name="clang" remote="clang" path="tools/clang"/>
+    <project name="compiler-rt" remote="compiler-rt" path="projects/compiler-rt"/>
+</manifest>
