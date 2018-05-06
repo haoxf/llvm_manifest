@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote  name="llvm" fetch="https://github.com/llvm-mirror/llvm" />
-    <remote  name="clang" fetch="https://github.com/llvm-mirror/clang" />
-    <remote  name="compiler-rt" fetch="https://github.com/llvm-mirror/compiler-rt" />
+    <remote name="llvm" fetch="https://github.com/llvm-mirror/llvm" />
+    <remote name="clang" fetch="https://github.com/llvm-mirror/clang" />
+    <remote name="compiler-rt" fetch="https://github.com/llvm-mirror/compiler-rt" />
 
     <default revision="master" remote="llvm" sync-j="4" />
 
