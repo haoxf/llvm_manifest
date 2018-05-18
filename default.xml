@@ -4,7 +4,7 @@
 
     <default revision="master" remote="llvm" sync-j="4" />
 
-    <project name="llvm" remote="llvm" path="llvm.git/"/>
-    <project name="clang" remote="llvm" path="clang.git/"/>
-    <project name="compiler-rt" remote="llvm" path="compiler-rt.git/"/>
+    <project name="llvm" remote="llvm.git/" path="llvm.git/"/>
+    <project name="clang" remote="clang.git/" path="llvm/tools/clang"/>
+    <project name="compiler-rt" remote="compiler-rt.git/" path="llvm/projects/compiler-rt"/>
 </manifest>
